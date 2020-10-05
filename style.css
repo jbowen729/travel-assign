@@ -1,0 +1,87 @@
+/* Color Theme Swatches in RGBA*/
+.Blue-compliments-1-rgba { color: rgba(58, 66, 163, 1); }
+.Blue-compliments-2-rgba { color: rgba(140, 150, 255, 1); }
+.Blue-compliments-3-rgba { color: rgba(107, 118, 237, 1); }
+.Blue-compliments-4-rgba { color: rgba(161, 135, 40, 1); }
+.Blue-compliments-5-rgba { color: rgba(237, 209, 107, 1); }
+
+/* Color Theme Swatches in RGBA */
+.blue-shades-1-rgba { color: rgba(58, 66, 163, 1); }
+.blue-shades-2-rgba { color: rgba(43, 50, 120, 1); }
+.blue-shades-3-rgba { color: rgba(89, 102, 247, 1); }
+.blue-shades-4-rgba { color: rgba(20, 23, 56, 1); }
+.blue-shades-5-rgba { color: rgba(80, 92, 222, 1); }
+
+
+*{ overflow:auto;}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background:rgba(140, 150, 255, 1);
+    color: black;
+    box-sizing:border-box;
+}
+.container{
+    background:rgba(237, 209, 107, 1);
+    width:80%;
+    max-width: 1000px;
+    margin:10px auto;
+}
+h1{
+    font-family: 'Secular One', sans-serif;
+    font-weight:bold;
+    color:rgba(20, 23, 56, 1); 
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    color: rgba(43, 50, 120, 1);
+}
+nav{
+    text-align: center;
+    line-height: 5;
+}
+nav a, .button{
+    padding: 20px;
+    margin: 50px;
+    color:rgba(237, 209, 107, 1);
+    background:rgba(58, 66, 163, 1);
+    border: 3px solid black;
+    text-decoration: none;
+    font-size:large;
+    border-radius:50%;
+}
+nav a:hover, .button:hover{
+    color:rgba(140, 150, 255, 1);
+    background-color:rgba(161, 135, 40, 1);
+}
+nav a:visited, .button:visited{
+    background:rgba(237, 209, 107, 1);
+    color:rgba(161, 135, 40, 1);
+}
+img{
+    padding:10px;
+    background:rgba(237, 209, 107, 1);
+}
+aside{
+    clear:both;
+    float:left;
+    width:70%;
+    box-sizing:border-box;
+    margin:1px;
+    padding:10px;
+    overflow:auto;
+    border:2 px solid black;
+    margin-right:10px;
+}
+header, footer{
+    clear:both;
+    width:100%;
+    box-sizing:border-box;
+    padding:10px;
+    text-align:center;
+    border:10px solid black;
+}
+main{
+    box-sizing:border-box;
+    padding:20px;
+}
